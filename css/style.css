@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    padding: 3rem;
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 48vw bottom 10vh, left 45vw top 55vh;
+}
+
+.container{
+    margin: 0 auto;
+    position: absolute;
+}
+
+.principal{
+    display: flex;
+    
+}
+
+.products{
+    width: 50%;
+    float: left;
+    margin-left: 30px;
+}
+
+.products h2{
+    width: 700;
+    color: hsl(300, 43%, 22%);
+    font-size: 60px;
+}
+
+.products p{
+    margin-top: 10px;
+    color: hsl(303, 10%, 53%);
+    margin-right: 9rem;
+    font-weight: 500;
+    line-height: 150%;
+    font-size: 15px;
+}
+    
+
+.stars{
+    width: 50%;
+
+    padding-left: 2rem;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.list-stars li div{
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+}
+
+.list-stars li div .img-star{
+    margin-right: 1rem;
+}
+.list-stars li div .img-star img{
+    padding-left: 5px;
+}
+
+.list-stars li div p{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.list-stars li{
+    align-items: center;
+    display: flex;
+    padding: 0.5rem;
+}
+
+.list-stars .second-item{
+    padding-left: 4rem;
+}
+
+.list-stars .third-item{
+    padding-left: 7.5rem;
+}
+
+.reviews{
+    margin-top: 2.5rem;
+}
+
+.reviews ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.reviews ul li{
+    padding: 1rem;
+}
+
+
+.reviews ul li article{
+    padding: 1rem;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+}
+
+
+.reviews ul li article img{
+    max-width:50px;
+    max-height:40px;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.reviews ul li article p{
+    color: white;
+}
+
+
+.img-box{
+    display: flex;
+}
+.paragraph{
+    margin-left: 1.5rem;
+}
+
+
+.paragraph p{
+    padding: 2px;
+    font-weight: 700;
+}
+.paragraph span{
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+    
+}
+
+.second-review{
+    margin-top: 1.5rem;
+
+}
+
+.third-review{
+    margin-top: 3.5rem;
+}
+
+
+.attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+.attribution a {
+        color: hsl(228, 45%, 44%);
+      }
